@@ -1,0 +1,21 @@
+.navbar-transparent:not(button) {
+    background-color: transparent;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar > .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar > .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #04A1E6;
+}
+
+.nav-link > i {
+    font-size: 25px;
+}
+
+ul > .nav-item{
+    padding-left: 20px;
+}
