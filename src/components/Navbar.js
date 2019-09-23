@@ -3,12 +3,12 @@ import './Navbar.css'
 import Logo from '../assets/Subtract.svg'
 
 export default function Navbar() {
-    const midia = {
+   /*  const midia = {
         facebook: 'http://wwww.facebook.com/tauan.face',
         instagram: 'https://www.instagram.com/tauan.almd/',
         linkedin: 'https://www.linkedin.com/in/tauan-almeida-1a508411b/',
         github: 'https://github.com/tauanAlmeida'
-    }
+    } */
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-transparent">
