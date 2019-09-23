@@ -1,4 +1,3 @@
-
 ## Inicialização do projeto: INFORTEC.
 
 **1° Instalar o git.**
@@ -32,7 +31,7 @@
 * 	Caso dê certo, aguarde a instalação de todas as dependências./
 
 
-6° Etapa: Inicialização do projeto.
+**6° Etapa: Inicialização do projeto.**
 	* Após a instalação das dependências e ainda dentro da pagina do projeto use o comando: yarn start
 * 	se tu der certo abrirá uma pagina no navegador com o projeto já inicializado.
 * 	(Obs: Deixe o terminal aberto, para que o servidor matenha-se online)
