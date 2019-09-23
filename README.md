@@ -20,7 +20,7 @@
 
 **4° Etapa: Clonar o respositório.**
 *   Escolha uma pasta onde ficará o repositório no seu terminal. ex: Documentos =>  --> cd Documents
-* 	Usar o seguinte comando: git clone https://github.com/TauanAlmeida/Infortec.git
+* 	Usar o seguinte comando: git clone ssh://git@fsspe.petrolina.ifsertao-pe.edu.br:4140/infortec/infortec.git
 * 	Após isso o projeto será baixado na pasta escolhida.
 
 
