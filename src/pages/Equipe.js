@@ -1,9 +1,13 @@
 import React from 'react';
+import Title from '../components/HandleTitle'
+import HeaderBar from '../components/HeaderBar'
 
-// import { Container } from './styles';
 
 export default function Equipe() {
   return (
-        <h1>Equipe</h1>
+      <div className="wrapper-page">
+        <Title title="Equipe"/>
+        <HeaderBar name="equipeBar"/>
+      </div>
     );
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css'
+import Logo from '../assets/Logo.svg'
+
 export default function Navbar() {
     const midia = {
         facebook: 'http://wwww.facebook.com/tauan.face',
@@ -10,7 +12,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-transparent">
-    <a className="mb-1 navbar-brand" href="/">IforTeC</a>
+    <a className="mb-1 navbar-brand" href="/"> <img className="logo" src={Logo} alt="Ifortec"/>IFORTEC</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>

@@ -19,3 +19,13 @@
 ul > .nav-item{
     padding-left: 20px;
 }
+
+
+div .navbar-brand{
+    letter-spacing: 2px;
+}
+
+.logo{
+    width: 25px;
+    margin-right: 5px;
+}

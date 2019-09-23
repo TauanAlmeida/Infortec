@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio.js';
 import Equipe from './pages/Equipe.js';
 import Metodologia from './pages/Metodologia.js';
 import Ferramentas from './pages/Ferramentas.js';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Ferramentas/>
     <Equipe/>
     <Contato/>
+    <Footer/>
   </>
   );
 }
