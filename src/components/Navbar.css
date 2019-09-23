@@ -16,16 +16,20 @@
     font-size: 25px;
 }
 
+.nav-link, .navbar-brand{
+    border-bottom: 1px solid transparent;
+}
+
 ul > .nav-item{
     padding-left: 20px;
 }
 
-
 div .navbar-brand{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .logo{
-    width: 25px;
-    margin-right: 5px;
+    width: 30px;
+    padding-bottom: -5px;
+    margin-right: 12px;
 }

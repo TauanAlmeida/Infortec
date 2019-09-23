@@ -11,7 +11,7 @@ export default function Home() {
           <div className="col  col-sm-12 col-md-6">
             <div className="text-container">
               <h1>Fácil e prático para você!</h1>
-              <p>Empresa especializada em desenvolvimento de softwares e sistemas web</p>
+              <p>Empresa especializada em desenvolvimento de softwares e sistemas web.</p>
               <button className="btn buttons-default">Começe Agora</button>
             </div>
           </div>
