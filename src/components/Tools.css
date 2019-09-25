@@ -1,0 +1,45 @@
+.tools{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tools-img{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+    
+}
+
+.tools-img img{
+    padding: 20px 0px;
+    width: 80px;
+    
+}
+
+.adjust-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 59px;
+    height: 59px;
+}
+
+.adjust-icon > img {
+    width: 42px;
+}
+    
+.tools h4{
+    text-align: center;
+    padding-top: 10px;
+}

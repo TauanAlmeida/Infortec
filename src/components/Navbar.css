@@ -7,9 +7,14 @@
 .navbar > .navbar-brand, .navbar-light .navbar-nav .nav-link {
     color: #fff;
 }
-.navbar > .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
     border-bottom: 1px solid #04A1E6;
+}
+
+.navbar > .navbar-brand:hover{
+    color: #fff;
 }
 
 .nav-link > i {
@@ -26,10 +31,10 @@ ul > .nav-item{
 
 div .navbar-brand{
     letter-spacing: 1px;
+    font-size: 30px;
 }
 
 .logo{
-    width: 30px;
-    padding-bottom: -5px;
+    width: 40px;
     margin-right: 12px;
 }

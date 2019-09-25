@@ -2,12 +2,15 @@
     margin: 75px 0 0 0;
 }
 
-.wrapper-title h2{
-   
+.wrapper-title h1{
+   color: #464277;
+   font-weight: bold;
     
 }
 
-
+.text-white{
+    color: white;
+}
 
 .slideInRight {
     opacity: 1;
