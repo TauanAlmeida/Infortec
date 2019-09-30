@@ -16,7 +16,8 @@ export default function Portfolio() {
                 <CardPort
                   img={SGD}
                   desc={`
-                  Sistema Gerenciador Web de Departamento de Cursos 
+                  Sistema sendo desenvolvido em React+Laravel, com parceria com IFSertão-PE.
+                  Objetivo do sistema é poder gerenciar cursos, professores, disciplinas, etc. 
                   `}
                   link="https://www.github.com/TauanAlmeida"
                 />
