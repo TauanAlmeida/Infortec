@@ -3,7 +3,9 @@ import Title from '../components/HandleTitle'
 import HeaderBar from '../components/HeaderBar'
 import Perfil from '../components/Perfil'
 import Isaias from '../assets/isaias.jpg'
+import Eugenio from '../assets/eugenio.png'
 import './Equipe.css'
+
 
 export default function Equipe() {
   return (
@@ -24,7 +26,7 @@ export default function Equipe() {
           <div className="col col-lg-3">
           <Perfil name="Eugenio Cavalcante"
             describe="Tester e Analista"
-            foto="https://avatars3.githubusercontent.com/u/23041553?s=460&v=4"/>
+            foto={Eugenio}/>
 
           </div>
           <div className="col col-lg-3">

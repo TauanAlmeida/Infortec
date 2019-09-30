@@ -3,21 +3,21 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div class="footer">
-    <div class="container">
-      <div class="social-work"> 
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
+    <div className="footer">
+    <div className="container">
+      <div className="social-work"> 
+        <a href="https://www.facebook.com/Infortec-Solu%C3%A7%C3%B5es-107176674020810" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f" rel="noopener noreferrer"></i></a> 
+        <a href="https://www.instagram.com/infortec_solucoes_/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+         <a href="https://twitter.com/Infortec16" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
       </div>
-      <div class="address">
+      <div className="address">
         <span>192 Avenida dos minérios, Bairro Areia Branca. Petrolina - PE</span>
         <span>infortec@gmail.com</span>
        
       </div>
-      <div class="line-row"></div>
-      <div class="copyright">
-        <span>Copyright © <span class="data"> 2019</span> Desenvolvido por INFORTEC. Todos os direitos reservados.</span>
+      <div className="line-row"></div>
+      <div className="copyright">
+        <span>Copyright © <span className="data"> 2019</span> Desenvolvido por INFORTEC. Todos os direitos reservados.</span>
       </div>
     </div>
     </div>

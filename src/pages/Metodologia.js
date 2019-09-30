@@ -5,7 +5,7 @@ import HeaderBar from '../components/HeaderBar'
 
 export default function Metodologia() {
   return (
-    <div className="wrapper-page">
+    <div className="wrapper-page metodologia">
       <Title title="Metodologia"/>
       <HeaderBar name="metodoBar"/>
     </div>
