@@ -30,8 +30,8 @@ export default function Equipe() {
 
           </div>
           <div className="col col-lg-3">
-          <Perfil name="Gemersom Danilton"
-            describe="Product Owner"
+          <Perfil name="Gemerson Araujo"
+            describe="Product Owner e Analista"
             foto="https://avatars3.githubusercontent.com/u/23041553?s=460&v=4"/>
                 
           </div>

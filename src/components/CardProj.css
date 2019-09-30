@@ -4,6 +4,8 @@
     height: auto;
     border: 1px solid #ccc;
     margin: 0 auto;
+    border: 0 none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
   }
   .card-text{
       text-align: justify;
@@ -24,7 +26,7 @@
       width: 100%;
       opacity: 0;
       transition: .5s ease;
-      background-color: #464277;
+      background-color: #2B077E;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -3,7 +3,7 @@ import Title from '../components/HandleTitle'
 import HeaderBar from '../components/HeaderBar'
 import './Portfolio.css'
 import CardPort from '../components/CardProj'
-
+import SGD from '../assets/sgd.png'
 
 export default function Portfolio() {
   return (
@@ -14,7 +14,7 @@ export default function Portfolio() {
             <div className="row justify-content-md-center">
               <div className="col-12 mb-4 col-lg-6 col-md-6 col-sm-12">
                 <CardPort
-                  img="http://3.bp.blogspot.com/-bEQnzbIpfAI/TZ0BIEWPA6I/AAAAAAAAAdw/iKhElRUfCbA/s1600/LOGO_INFO.JPG"
+                  img={SGD}
                   desc={`
                   Sistema Gerenciador Web de Departamento de Cursos 
                   `}
