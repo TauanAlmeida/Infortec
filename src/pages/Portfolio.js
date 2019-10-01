@@ -16,7 +16,7 @@ export default function Portfolio() {
                 <CardPort
                   img={SGD}
                   desc={`
-                  Sistema sendo desenvolvido em React+Laravel, com parceria com IFSertão-PE.
+                  Sistema sendo desenvolvido em React + Laravel, com parceria no IFSertão-PE.
                   Objetivo do sistema é poder gerenciar cursos, professores, disciplinas, etc. 
                   `}
                   link="https://www.github.com/TauanAlmeida"
