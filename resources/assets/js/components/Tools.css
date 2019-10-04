@@ -1,0 +1,42 @@
+.tools{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.tools-img img{
+    padding: 20px 0px;
+    width: 80px;
+    
+}
+
+.adjust-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 59px;
+    height: 59px;
+}
+
+.adjust-icon > img {
+    width: 42px;
+}
+    
+.tools h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 577px) {
+    .tools h4{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+  }

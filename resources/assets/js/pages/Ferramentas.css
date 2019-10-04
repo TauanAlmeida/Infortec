@@ -1,0 +1,30 @@
+.ferramentas h6{
+    text-align: center;
+}
+
+.ferramentas {
+    background: url('../assets/Desktopbackground.svg');
+    background-repeat: no-repeat;
+    height:165vh;
+    padding-top: 100px;
+}
+
+.test{
+    position: absolute;
+}
+
+.ferramentas h4{
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 577px) {
+    .ferramentas {
+        background: url('../assets/Desktopbackground.svg');
+        background-repeat: no-repeat;
+        background-size: 300vh;
+        height:210vh;
+        min-height: 100vh;
+        padding-top: 100px;
+    }
+  }
