@@ -6644,7 +6644,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);", ""]);
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  outline: 0;\n  font-family: 'Montserrat', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-image: url(" + escape(__webpack_require__(/*! ./assets/Homebackground.svg */ "./resources/assets/js/assets/Homebackground.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: auto;\n}\n\n.buttons-default{\n  background-color: #FF6194;\n  border-color: #FF6190;\n  color: white;\n}\n\n.buttons-default:hover{\n  background-color: rgb(241, 54, 113);\n  border-color: rgb(248, 21, 89);\n  color: white;\n}\n\n.wrapper-page{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  min-height: 100vh;\n  height: auto;\n}", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  outline: 0;\n  font-family: 'Montserrat', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-image: url(" + escape(__webpack_require__(/*! ./assets/Homebackground.svg */ "./resources/assets/js/assets/Homebackground.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: auto;\n  background-color: #fff;\n}\n\n.buttons-default{\n  background-color: #FF6194;\n  border-color: #FF6190;\n  color: white;\n}\n\n.buttons-default:hover{\n  background-color: rgb(241, 54, 113);\n  border-color: rgb(248, 21, 89);\n  color: white;\n}\n\n.wrapper-page{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  min-height: 100vh;\n  height: auto;\n}", ""]);
 
 // exports
 
@@ -6741,7 +6741,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".metodo-wrapper{\r\n    min-height: 100vh;\r\n    height: auto;\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    background-color: transparent;\r\n}\r\n\r\n.metodologia{\r\n    padding-top: 150px;\r\n}", ""]);
+exports.push([module.i, ".metodo-wrapper{\r\n    min-height: 100vh;\r\n    height: auto;\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    background-color: transparent;\r\n}\r\n\r\n.metodologia{\r\n    padding-top: 150px;\r\n}\r\n\r\n.subtitle{\r\n    color: #464277;\r\n   font-weight: bold;\r\n}\r\n\r\n.text-mtd {\r\n    text-align: justify;\r\n    color: #464277;\r\n}\r\n\r\n.scrum-container{\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n.scrum-img{\r\n    width: 300px;\r\n\r\n}\r\n\r\n.link-mtd{\r\n    color: #FF6194;\r\n}\r\n\r\n.bottom-bar{\r\n    margin: 0 auto;\r\n   margin: 80px 40px;\r\n   width: 300px;\r\n}\r\n\r\n.bar-container{\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}", ""]);
 
 // exports
 
@@ -70234,6 +70234,17 @@ module.exports = "/images/Subtract.svg?e9b81c0c547184c8c5a27e3af61db73b";
 
 /***/ }),
 
+/***/ "./resources/assets/js/assets/bottom-bar.svg":
+/*!***************************************************!*\
+  !*** ./resources/assets/js/assets/bottom-bar.svg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bottom-bar.svg?ba3b9cd6595894c0dfd0f0122e9a9af3";
+
+/***/ }),
+
 /***/ "./resources/assets/js/assets/contact.svg":
 /*!************************************************!*\
   !*** ./resources/assets/js/assets/contact.svg ***!
@@ -70289,6 +70300,17 @@ module.exports = "/images/isaias.jpg?9394404106235a0e08bb21859fd6c889";
 
 /***/ }),
 
+/***/ "./resources/assets/js/assets/proccess.svg":
+/*!*************************************************!*\
+  !*** ./resources/assets/js/assets/proccess.svg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/proccess.svg?3c3fdf7636303dc46f09ce15ab7e1f79";
+
+/***/ }),
+
 /***/ "./resources/assets/js/assets/sgd.png":
 /*!********************************************!*\
   !*** ./resources/assets/js/assets/sgd.png ***!
@@ -70297,6 +70319,17 @@ module.exports = "/images/isaias.jpg?9394404106235a0e08bb21859fd6c889";
 /***/ (function(module, exports) {
 
 module.exports = "/images/sgd.png?50e11cbdc2d2b66cc4b1356cd118de37";
+
+/***/ }),
+
+/***/ "./resources/assets/js/assets/sprint.svg":
+/*!***********************************************!*\
+  !*** ./resources/assets/js/assets/sprint.svg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/sprint.svg?98c00fb67ff5204ce85fd40421378d87";
 
 /***/ }),
 
@@ -70506,6 +70539,17 @@ module.exports = "/images/sqlite.jpg?5c49b0376303f9e7a7d6c7c94ceb0090";
 /***/ (function(module, exports) {
 
 module.exports = "/images/vscode.png?0db4447c9ee422a039df24455306597a";
+
+/***/ }),
+
+/***/ "./resources/assets/js/assets/xp.svg":
+/*!*******************************************!*\
+  !*** ./resources/assets/js/assets/xp.svg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/xp.svg?871356c14ffc28ac6737c7c222572a2f";
 
 /***/ }),
 
@@ -71675,6 +71719,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Metodologia_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Metodologia_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_HandleTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HandleTitle */ "./resources/assets/js/components/HandleTitle.js");
 /* harmony import */ var _components_HeaderBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/HeaderBar */ "./resources/assets/js/components/HeaderBar.js");
+/* harmony import */ var _assets_bottom_bar_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/bottom-bar.svg */ "./resources/assets/js/assets/bottom-bar.svg");
+/* harmony import */ var _assets_bottom_bar_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_bottom_bar_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_sprint_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/sprint.svg */ "./resources/assets/js/assets/sprint.svg");
+/* harmony import */ var _assets_sprint_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_sprint_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_xp_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/xp.svg */ "./resources/assets/js/assets/xp.svg");
+/* harmony import */ var _assets_xp_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_xp_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_proccess_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/proccess.svg */ "./resources/assets/js/assets/proccess.svg");
+/* harmony import */ var _assets_proccess_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_proccess_svg__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
 
 
 
@@ -71686,7 +71742,78 @@ function Metodologia() {
     title: "Metodologia"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeaderBar__WEBPACK_IMPORTED_MODULE_3__["default"], {
     name: "metodoBar"
-  }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-12 col-md-6 col-lg-6 "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "scrum-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scrum-img",
+    src: _assets_sprint_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    alt: "Processo"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mt-5 col-12 col-sm-12 col-md-6 col-lg-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subtitle"
+  }, "Scrum"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-mtd"
+  }, "Scrum \xE9 uma metodologia \xE1gil para gest\xE3o e planejamento de projetos de software. Nela os processos s\xE3o divididos em ciclos, no caso da INFORTEC as entregas ser\xE3o entregues semanalmente, todas \xE0s segundas-feiras. O Sprint representa um Time Box dentro do qual um conjunto de atividades deve ser executado as funcionalidades a serem implementadas."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link-mtd",
+    href: ""
+  }, "Saiba mais..."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bar-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "bottom-bar",
+    src: _assets_bottom_bar_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "BottomBar"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-12 col-md-6 col-lg-6 "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subtitle"
+  }, "Extreme Programming (XP)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-mtd"
+  }, "Com o objetivo de cada vez mais melhorar o atendimento, a f\xE1brica de software INFORTEC utiliza tamb\xE9m a metodologia de programa\xE7\xE3o extrema (do ingl\xEAs eXtreme Programming) mais conhecido como XP, com o intuito de ter o contato direto com o cliente. Essa metodologia adota os valores de comunica\xE7\xE3o, simplicidade, feedback e coragem, entregando funcionalidades de forma r\xE1pida e eficiente."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link-mtd",
+    href: ""
+  }, "Saiba mais...")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-12 col-md-6 col-lg-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "scrum-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scrum-img",
+    src: _assets_xp_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    alt: "Exteme Programming"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bar-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "bottom-bar",
+    src: _assets_bottom_bar_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "BottomBar"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-12 col-md-6 col-lg-6 "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "scrum-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scrum-img",
+    src: _assets_proccess_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
+    alt: "Processo"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mt-5 col-12 col-sm-12 col-md-6 col-lg-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subtitle"
+  }, "Processo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-mtd"
+  }, "Processo \xE9 o conjunto de pr\xE1ticas executadas para se alcan\xE7ar o produto final. Para o processo de desenvolvimento de software da Infortec utilizamos 5 Etapas: Planejamento, Coleta de dados, Constru\xE7\xE3o do c\xF3digo, Teste e Entrega do produto."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link-mtd",
+    href: ""
+  }, "Saiba mais...")))));
 }
 
 /***/ }),

@@ -11,3 +11,41 @@
 .metodologia{
     padding-top: 150px;
 }
+
+.subtitle{
+    color: #464277;
+   font-weight: bold;
+}
+
+.text-mtd {
+    text-align: justify;
+    color: #464277;
+}
+
+.scrum-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scrum-img{
+    width: 300px;
+
+}
+
+.link-mtd{
+    color: #FF6194;
+}
+
+.bottom-bar{
+    margin: 0 auto;
+   margin: 80px 40px;
+   width: 300px;
+}
+
+.bar-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

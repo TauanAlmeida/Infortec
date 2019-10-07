@@ -9,6 +9,7 @@ body {
   background-image: url("./assets/Homebackground.svg");
   background-repeat: no-repeat;
   background-size: auto;
+  background-color: #fff;
 }
 
 .buttons-default{
