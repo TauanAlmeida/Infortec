@@ -19,7 +19,7 @@ export default function Contato() {
               <h6>Telefone:</h6>
               <h5>(87) 9886-5995</h5>
               <h6>Endereço:</h6>
-              <h5>192 Avenida dos minérios, Bairro Areia Branca. Petrolina - PE</h5>
+              <h5>192 Avenida dos minérios, Bairro Areia Branca.<br/> Petrolina - PE</h5>
             </div>
           </div>
           <div className="col col-xl-4 col-md-6">

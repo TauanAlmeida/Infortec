@@ -109,13 +109,13 @@ export default function Metodologia() {
                     <li>Coach - Orienta a equipe, controlando a aplicação do XP</li>
                     <li>Tracker - Coleta as métricas do projeto</li>
                   </ul>
+                </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                   <div className="scrum-container">
                     <img className="scrum-img" src={teamXp} alt="Interação"/>
                   </div>
                 </div>
               </div>
-          </div>
         </div>
         <div className="bar-container">
           <img className="bottom-bar" src={bottomBar} alt="BottomBar"/>

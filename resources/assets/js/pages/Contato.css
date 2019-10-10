@@ -13,6 +13,7 @@
 .contact-wrapper{
     align-self: flex-start;
     justify-self: baseline;
+    padding-right: 30px;
 }
 
 .contact-wrapper h6{
