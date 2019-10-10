@@ -19,19 +19,19 @@ export default function Navbar() {
     <div className="ml-5 collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <a className="nav-link" href="/">Metodologia</a>
+                <a className="nav-link" href="#methodology">Metodologia</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/portfolio">Portfolio</a>
+                <a className="nav-link" href="#projects">Portfolio</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/">Ferramentas</a>
+                <a className="nav-link" href="#tools">Ferramentas</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/">Equipe</a>
+                <a className="nav-link" href="#team">Equipe</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/">Contato</a>
+                <a className="nav-link" href="#contact">Contato</a>
             </li>
         </ul>
         {/* <ul className="navbar-nav ml-auto">

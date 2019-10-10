@@ -10,7 +10,7 @@ import './Equipe.css'
 
 export default function Equipe() {
   return (
-      <div className="wrapper-page equipe">
+      <div className="wrapper-page equipe" id="team">
         <Title title="Equipe"/>
         <HeaderBar name="equipeBar"/>
         <div className="row">

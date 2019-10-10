@@ -7,7 +7,7 @@ import './Contato.css'
 
 export default function Contato() {
   return (
-    <div className="wrapper-page contact-global-container">
+    <div className="wrapper-page contact-global-container" id="contact">
       <Title title="Contato"/>
       <HeaderBar name="contatoBar"/>
       <div className="container">

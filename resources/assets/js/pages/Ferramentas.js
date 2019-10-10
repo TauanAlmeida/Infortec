@@ -26,7 +26,7 @@ import gitlab from '../assets/tools/gitlab.png'
 
 export default function Ferramentas() {
   return (
-    <div className="wrapper-page ferramentas">
+    <div className="wrapper-page ferramentas" id="tools">
      
       <Title className=" mt-5" title="Ferramentas" />
       <HeaderBar name="ferramentasBar"/>

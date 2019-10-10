@@ -35,8 +35,13 @@
 
 .link-mtd{
     color: #FF6194;
+    text-decoration: none;
 }
 
+.link-mtd:hover{
+    color: rgb(243, 23, 93);
+    text-decoration: none;
+}
 .bottom-bar{
     margin: 0 auto;
    margin: 80px 40px;
@@ -48,4 +53,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ajust-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scrum-image{
+    width: 80%;
+    
+}
+
+.sub-bar{
+    margin: 25px 0 75px 0;
+    width: 150px;
+    height: 3px;
+    background: #9D5FE5;
+    margin: 0 auto;
+}
+
+ul li{
+    margin-bottom: 5px;
 }

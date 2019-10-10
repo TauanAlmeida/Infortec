@@ -7,7 +7,7 @@ import SGD from '../assets/sgd.png'
 
 export default function Portfolio() {
   return (
-    <div className="wrapper-page">
+    <div className="wrapper-page" id="projects">
       <Title title="Portfolio"/>
       <HeaderBar name="portBar"/>
       <div className="container">

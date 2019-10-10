@@ -20,22 +20,22 @@ export default function HeaderBar(props) {
               handleAnimation('metodologia', 'slideInRight')
             } 
 
-            if(document.body.scrollTop > 900 || document.documentElement.scrollTop > 900){
+            if(document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600){
               handleAnimation('portBar', 'slideInRight')
               handleAnimation('portfolio', 'slideInRight')
             }
 
-            if(document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400){
+            if(document.body.scrollTop > 2400 || document.documentElement.scrollTop > 2400){
               handleAnimation('ferramentasBar', 'slideInRight')
               handleAnimation('ferramentas', 'slideInRight')
             }
 
-            if(document.body.scrollTop > 1900 || document.documentElement.scrollTop > 1900){
+            if(document.body.scrollTop > 3300 || document.documentElement.scrollTop > 3300){
               handleAnimation('equipeBar', 'slideInRight')
               handleAnimation('equipe', 'slideInRight')
             }
 
-            if(document.body.scrollTop > 2900 || document.documentElement.scrollTop > 2900){
+            if(document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000){
               handleAnimation('contatoBar', 'slideInRight')
               handleAnimation('contato', 'slideInRight')
             }
