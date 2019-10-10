@@ -6756,7 +6756,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".contact-global-container{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../assets/Groupcontact.svg */ "./resources/assets/js/assets/Groupcontact.svg")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: 100%;\r\n    padding-top: 60px;\r\n}\r\n.contact{\r\n    width: 400px;\r\n    align-self: flex-end;\r\n    justify-self: baseline;\r\n}\r\n\r\n.contact-wrapper{\r\n    align-self: flex-start;\r\n    justify-self: baseline;\r\n}\r\n\r\n.contact-wrapper h6{\r\n    padding: 10px 0px 10px 0px;\r\n    color: #9D5FE5;\r\n}\r\n\r\n.contact-wrapper h5{\r\n    color: #464277;\r\n}\r\n\r\n@media screen and (max-width: 762px) {\r\n    .contact{\r\n       display: none;\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 1140px) {\r\n    .contact-global-container{\r\n        background-size: 300vh;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".contact-global-container{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../assets/Groupcontact.svg */ "./resources/assets/js/assets/Groupcontact.svg")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: 100%;\r\n    padding-top: 60px;\r\n}\r\n.contact{\r\n    width: 400px;\r\n    align-self: flex-end;\r\n    justify-self: baseline;\r\n}\r\n\r\n.contact-wrapper{\r\n    align-self: flex-start;\r\n    justify-self: baseline;\r\n    padding-right: 30px;\r\n}\r\n\r\n.contact-wrapper h6{\r\n    padding: 10px 0px 10px 0px;\r\n    color: #9D5FE5;\r\n}\r\n\r\n.contact-wrapper h5{\r\n    color: #464277;\r\n}\r\n\r\n@media screen and (max-width: 762px) {\r\n    .contact{\r\n       display: none;\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 1140px) {\r\n    .contact-global-container{\r\n        background-size: 300vh;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -67932,7 +67932,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75372,7 +75372,7 @@ function Contato() {
     className: "col-12 col-sm-12 col-md-6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact-wrapper"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "infortec@gmail.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Telefone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "(87) 9886-5995"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Endere\xE7o:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "192 Avenida dos min\xE9rios, Bairro Areia Branca. Petrolina - PE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "infortec@gmail.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Telefone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "(87) 9886-5995"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Endere\xE7o:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "192 Avenida dos min\xE9rios, Bairro Areia Branca.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Petrolina - PE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col col-xl-4 col-md-6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "contact",
@@ -75976,7 +75976,7 @@ function Metodologia() {
     className: "subtitle"
   }, "Os pap\xE9is do time de desenvolvimento englobam:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "mt-3 text-mtd"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Desenvolvedores - Desenvolvem a solu\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Testadores - Ajuda o cliente com os testes de aceita\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analistas - Ajuda o cliente a definir os requisitos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gerente - Garante os recursos necess\xE1rios"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Coach - Orienta a equipe, controlando a aplica\xE7\xE3o do XP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Tracker - Coleta as m\xE9tricas do projeto")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Desenvolvedores - Desenvolvem a solu\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Testadores - Ajuda o cliente com os testes de aceita\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analistas - Ajuda o cliente a definir os requisitos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gerente - Garante os recursos necess\xE1rios"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Coach - Orienta a equipe, controlando a aplica\xE7\xE3o do XP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Tracker - Coleta as m\xE9tricas do projeto"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-12 col-sm-12 col-md-6 col-lg-6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "scrum-container"
@@ -75984,7 +75984,7 @@ function Metodologia() {
     className: "scrum-img",
     src: _assets_teamXp_svg__WEBPACK_IMPORTED_MODULE_10___default.a,
     alt: "Intera\xE7\xE3o"
-  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bar-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "bottom-bar",
