@@ -16,23 +16,23 @@ export default function Equipe() {
         <div className="row">
           <div className="col col-lg-3">
           <Perfil name="Isaías Coelho"
-          describe="Scrum Master e Designer"         
+          describe="Scrum Master e Coach"         
           foto={Isaias}/>
           </div>
           <div className="col col-lg-3">
           <Perfil name="Tauan Almeida"
-            describe="Designer e Desenvolvedor" 
+            describe="Product Owner e Desenvolvedor" 
             foto="https://avatars3.githubusercontent.com/u/23041553?s=460&v=4"/>
           </div>
           <div className="col col-lg-3">
           <Perfil name="Eugenio Cavalcante"
-            describe="Tester e Analista"
+            describe="Programador e Tester"
             foto={Eugenio}/>
 
           </div>
           <div className="col col-lg-3">
           <Perfil name="Gemerson Araujo"
-            describe="Product Owner e Analista"
+            describe="Programador e Analista"
             foto={Gemersom}/>
                 
           </div>
