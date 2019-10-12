@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link, Router} from 'react-router-dom'
 import './Metodologia.css'
 import Title from '../components/HandleTitle'
 import HeaderBar from '../components/HeaderBar'

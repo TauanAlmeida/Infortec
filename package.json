@@ -2,7 +2,7 @@
     "private": true,
     "version": "1.0.0",
     "engines": {
-      "node": "11.10.1"
+        "node": "11.10.1"
     },
     "scripts": {
         "dev": "npm run development",
@@ -14,8 +14,7 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.10.2",
-        "react-router-dom": "^5.1.2"
+        "@fortawesome/fontawesome-free": "^5.10.2"
     },
     "devDependencies": {
         "@babel/preset-react": "^7.0.0",
