@@ -155,7 +155,7 @@ export default function Metodologia() {
                 Entrega do produto: Após todas as fases concluidas, o sistema será entregue. Saída: Sistema entregue.
                 </li>
                 <li>
-                Teste: Haverá teste em todas as fases do desenvolvimento, que serão feitos por todos da equipe, sendo primeiro pelos programadores Tauan, Gemerson, pelos testadores da equipe Eugenio e por último pelo cliente que dará a palavra final. Entrada: Protótipo com os critérios para testes. Saída: Produto.
+                 Teste: Haverá teste em todas as fases do desenvolvimento, que serão feitos por todos da equipe, sendo primeiro pelos programadores Tauan, Gemerson, pelos testadores da equipe Eugenio e por último pelo cliente que dará a palavra final. Entrada: Protótipo com os critérios para testes. Saída: Produto.
                 </li>
               </ul>
             </div>
