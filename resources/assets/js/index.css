@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/Homebackground.svg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-color: #fff;
 }
 
@@ -31,3 +31,4 @@ body {
   min-height: 100vh;
   height: auto;
 }
+

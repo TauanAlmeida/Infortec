@@ -19,7 +19,7 @@ export default function Portfolio() {
                   Sistema sendo desenvolvido em React + Laravel, com parceria no IFSertão-PE.
                   Objetivo do sistema é poder gerenciar cursos, professores, disciplinas, etc. 
                   `}
-                  link="https://www.github.com/TauanAlmeida"
+                  link="https://redmine.fsspe.petrolina.ifsertao-pe.edu.br/projects/gerenciador-de-cursos-site-coinfo"
                 />
               </div>
              {/*  <div className="col-12 mb-4 col-lg-6 col-md-6 col-sm-12">
