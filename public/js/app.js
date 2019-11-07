@@ -6644,7 +6644,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);", ""]);
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  outline: 0;\n  font-family: 'Montserrat', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-image: url(" + escape(__webpack_require__(/*! ./assets/Homebackground.svg */ "./resources/assets/js/assets/Homebackground.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-color: #fff;\n}\n\n.buttons-default{\n  background-color: #FF6194;\n  border-color: #FF6190;\n  color: white;\n}\n\n.buttons-default:hover{\n  background-color: rgb(241, 54, 113);\n  border-color: rgb(248, 21, 89);\n  color: white;\n}\n\n.wrapper-page{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  min-height: 100vh;\n  height: auto;\n}", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  outline: 0;\n  font-family: 'Montserrat', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-image: url(" + escape(__webpack_require__(/*! ./assets/Homebackground.svg */ "./resources/assets/js/assets/Homebackground.svg")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-color: #fff;\n}\n\n.buttons-default{\n  background-color: #FF6194;\n  border-color: #FF6190;\n  color: white;\n}\n\n.buttons-default:hover{\n  background-color: rgb(241, 54, 113);\n  border-color: rgb(248, 21, 89);\n  color: white;\n}\n\n.wrapper-page{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  min-height: 100vh;\n  height: auto;\n}\n\n", ""]);
 
 // exports
 
@@ -71047,7 +71047,13 @@ function Navbar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     href: "#contact"
-  }, "Contato")))));
+  }, "Contato")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    target: "_blank",
+    href: "https://docs.google.com/spreadsheets/d/1pTbRKvkIP3vNLnj7MzR-VtjhrQ9bgGuR2pXUNSRjkSQ/edit?usp=sharing"
+  }, "Cronograma")))));
 }
 
 /***/ }),
@@ -72020,7 +72026,7 @@ function Portfolio() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardProj__WEBPACK_IMPORTED_MODULE_4__["default"], {
     img: _assets_sgd_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     desc: "\n                  Sistema sendo desenvolvido em React + Laravel, com parceria no IFSert\xE3o-PE.\n                  Objetivo do sistema \xE9 poder gerenciar cursos, professores, disciplinas, etc. \n                  ",
-    link: "https://www.github.com/TauanAlmeida"
+    link: "https://redmine.fsspe.petrolina.ifsertao-pe.edu.br/projects/gerenciador-de-cursos-site-coinfo"
   })))));
 }
 

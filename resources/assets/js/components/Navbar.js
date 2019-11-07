@@ -33,6 +33,9 @@ export default function Navbar() {
             <li className="nav-item">
                 <a className="nav-link" href="#contact">Contato</a>
             </li>
+            <li className="nav-item">
+                <a className="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/1pTbRKvkIP3vNLnj7MzR-VtjhrQ9bgGuR2pXUNSRjkSQ/edit?usp=sharing">Cronograma</a>
+            </li>
         </ul>
         {/* <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
