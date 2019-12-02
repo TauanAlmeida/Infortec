@@ -34,7 +34,7 @@ export default function Ferramentas() {
         <h4>Ferramentas utilizadas pela Infortec no desenvolvimento de softwares.</h4>
         <div className="row">
           <div className="col-4 col-sm-2 col-md-2 col-lg-2">
-            <Tools name="Git" image={Git}/>
+            <Tools name="Git" image={require('../assets/tools/git.png')}>
           </div>
           <div className="col-4 col-sm-2 col-md-2 col-lg-2">
             <Tools name="Github" image={Github}/>

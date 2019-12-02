@@ -70108,6 +70108,28 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./public/images/git.png":
+/*!*******************************!*\
+  !*** ./public/images/git.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/git.png?728ff5a8e44d74cd0f2359ef0a9ec88a";
+
+/***/ }),
+
+/***/ "./public/images/xp.svg":
+/*!******************************!*\
+  !*** ./public/images/xp.svg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/xp.svg?871356c14ffc28ac6737c7c222572a2f";
+
+/***/ }),
+
 /***/ "./resources/assets/js/app.js":
 /*!************************************!*\
   !*** ./resources/assets/js/app.js ***!
@@ -71535,7 +71557,7 @@ function Ferramentas() {
     className: "col-4 col-sm-2 col-md-2 col-lg-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: "Git",
-    image: _assets_tools_git_png__WEBPACK_IMPORTED_MODULE_5___default.a
+    image: __webpack_require__(/*! ../../../../public/images/git.png */ "./public/images/git.png")
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-sm-2 col-md-2 col-lg-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -71675,11 +71697,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navbar */ "./resources/assets/js/components/Navbar.js");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.css */ "./resources/assets/js/pages/Home.css");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_home_heatmap_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/home-heatmap.svg */ "./resources/assets/js/assets/home-heatmap.svg");
-/* harmony import */ var _assets_home_heatmap_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_home_heatmap_svg__WEBPACK_IMPORTED_MODULE_3__);
 
 
+ //import heatmap from '../assets/home-heatmap.svg'
 
+var heatmap = __webpack_require__(/*! ../assets/home-heatmap.svg */ "./resources/assets/js/assets/home-heatmap.svg");
 
 function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -71700,7 +71722,7 @@ function Home() {
   }, "Saiba mais")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col col-sm-12 col-md-6 flex-align-bottom-right"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_home_heatmap_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    src: heatmap,
     alt: "heatmap"
   })))));
 }
@@ -71864,7 +71886,7 @@ function Metodologia() {
     className: "scrum-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "scrum-img",
-    src: _assets_xp_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    src: __webpack_require__(/*! ../../../../public/images/xp.svg */ "./public/images/xp.svg"),
     alt: "Exteme Programming"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mt-5 collapse text-mtd",
@@ -72050,8 +72072,8 @@ function Portfolio() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\infortec\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\infortec\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! c:\laragon\www\infortec\resources\assets\js\app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! c:\laragon\www\infortec\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ })
