@@ -70108,28 +70108,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/images/git.png":
-/*!*******************************!*\
-  !*** ./public/images/git.png ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/git.png?728ff5a8e44d74cd0f2359ef0a9ec88a";
-
-/***/ }),
-
-/***/ "./public/images/xp.svg":
-/*!******************************!*\
-  !*** ./public/images/xp.svg ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/xp.svg?871356c14ffc28ac6737c7c222572a2f";
-
-/***/ }),
-
 /***/ "./resources/assets/js/app.js":
 /*!************************************!*\
   !*** ./resources/assets/js/app.js ***!
@@ -71557,7 +71535,7 @@ function Ferramentas() {
     className: "col-4 col-sm-2 col-md-2 col-lg-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: "Git",
-    image: __webpack_require__(/*! ../../../../public/images/git.png */ "./public/images/git.png")
+    image: __webpack_require__(/*! ../assets/tools/git.png */ "./resources/assets/js/assets/tools/git.png")
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-sm-2 col-md-2 col-lg-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -71886,7 +71864,7 @@ function Metodologia() {
     className: "scrum-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "scrum-img",
-    src: __webpack_require__(/*! ../../../../public/images/xp.svg */ "./public/images/xp.svg"),
+    src: _assets_xp_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
     alt: "Exteme Programming"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mt-5 collapse text-mtd",

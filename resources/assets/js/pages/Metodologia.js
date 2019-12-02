@@ -67,7 +67,7 @@ export default function Metodologia() {
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="scrum-container">
-              <img className="scrum-img" src={require('../../../../public/images/xp.svg')} alt="Exteme Programming"/>
+              <img className="scrum-img" src={xp} alt="Exteme Programming"/>
             </div>
           </div>
         </div>
